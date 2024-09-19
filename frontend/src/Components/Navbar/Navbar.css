@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    background: black;
+    gap: 30px;
+    padding: 15px;
+}
+.logo-search{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.frnds-logo{
+    display: flex   ;
+    gap: 10px;
+    margin: 0px 100px;
+    width: 30%;
+
+}
+.frnds-logo h1{
+    font-size: 22px;
+    color: #fff;
+}
+.heading-link{
+text-decoration: none;
+}
+.frnds-logo img{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background: #49484893;
+    gap: 10px;
+    flex: 1;
+    padding: 10px 20px;
+    
+}
+.fa-solid, .fa-magnifying-glass{
+    color: white;
+    font-size: 14px;
+}
+.search-bar input{
+border: none;
+outline: none;
+background: none;
+
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.nav-menu li{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}

@@ -1,0 +1,98 @@
+.posting{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 500px;
+}
+
+.post-image{
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.post-publisher{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    justify-content: center;
+   width: 100%;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.post-publisher img{
+    width: 50px;
+        height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.username-publish-time{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 15px;
+    width: 100%;
+}
+.username-publish-time p{
+    font-size: 14px;
+}
+.follow-username h1{
+    font-size: 16px;
+    color: rgb(0, 187, 255);
+}
+.follow-username{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.follow-username p{
+    color: rgb(28, 191, 28);
+    font-size: 13px;
+    font-weight: 500;
+}
+.post-description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.show-btn{
+    width: 80px;
+    padding: 10px 10px;
+    background:#0059ff;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+}
+.show-btn:active{
+    background: #fff;
+    border: 2px solid #0059ff;
+    color: #0059ff;
+}
+.show-input input{
+    width: 100px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 11px;
+}
+.show-input{
+    display: flex;
+    gap: 10px;
+}
+.share-date{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.show-date{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.show-delete{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
